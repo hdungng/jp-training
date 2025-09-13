@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project template</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <!-- ...existing code... -->
+    <header class="page-header">
+        <div class="wrapper">
+            <nav class="page-header__nav">
+                <div class="page-header__logo">ProjectLogo</div>
+                <button class="hamburger" id="hamburger" aria-label="メニュー">
+                    <span class="hamburger__bar"></span>
+                    <span class="hamburger__bar"></span>
+                    <span class="hamburger__bar"></span>
+                </button>
+                <ul class="page-header__menu" id="mainMenu">
+                    <li class="page-header__item"><a href="#" class="page-header__link">Home</a></li>
+                    <li class="page-header__item"><a href="#" class="page-header__link">About</a></li>
+                    <li class="page-header__item"><a href="#" class="page-header__link">Register</a></li>
+                    <li class="page-header__item"><a href="#" class="page-header__link">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- ...existing code... -->
+
+    <section class="carousel">
+        <div class="wrapper">
+            <div class="carousel__container">
+                <div class="carousel__slide carousel__slide--active">
+                    <img src="./assets/img/carouser.png" alt="Slide 1" class="carousel__image">
+                    <div class="carousel__caption">Welcome to Project Template</div>
+                </div>
+                <div class="carousel__slide">
+                    <img src="https://via.placeholder.com/900x300?text=Slide+2" alt="Slide 2" class="carousel__image">
+                    <div class="carousel__caption">Beautiful and Responsive</div>
+                </div>
+                <div class="carousel__slide">
+                    <img src="https://via.placeholder.com/900x300?text=Slide+3" alt="Slide 3" class="carousel__image">
+                    <div class="carousel__caption">Easy to Customize</div>
+                </div>
+                <button class="carousel__control carousel__control--prev">&#10094;</button>
+                <button class="carousel__control carousel__control--next">&#10095;</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ...existing code... -->
+    <main>
+        <div class="wrapper">
+            <div class="main-grid main-grid--ads">
+                <aside class="main-grid__sidebar">
+                    <h3 class="category__title">Categories</h3>
+                    <ul class="category__list">
+                        <li class="category__item"><a href="#" class="category__link">Technology</a></li>
+                        <li class="category__item"><a href="#" class="category__link">Design</a></li>
+                        <li class="category__item"><a href="#" class="category__link">Business</a></li>
+                        <li class="category__item"><a href="#" class="category__link">Lifestyle</a></li>
+                    </ul>
+                    <div class="sidebar-ad">
+                        <div class="sidebar-ad__placeholder">Ad Placeholder</div>
+                    </div>
+                </aside>
+                <section class="main-grid__content">
+                    <!-- Filter buttons -->
+                    <div class="post-filter">
+                        <button class="post-filter__btn post-filter__btn--active">最新</button>
+                        <button class="post-filter__btn">流行</button>
+                    </div>
+                    <!-- Posts -->
+                    <div class="post-card">
+                        <img src="https://happywall-img-gallery.imgix.net/20607/japan_limited.jpg" alt="Post 1"
+                            class="post-card__image">
+                        <div class="post-card__body">
+                            <h4 class="post-card__title">How to Build a Modern Website</h4>
+                            <p class="post-card__desc">Learn the latest trends and technologies to create a
+                                stunning,
+                                responsive
+                                website for your business or portfolio.</p>
+                        </div>
+                    </div>
+                    <div class="post-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3iTBpi8-0lpMq3_Gt8dSrl-xrXyijUtV0Mg&s"
+                            alt="Post 2" class="post-card__image">
+                        <div class="post-card__body">
+                            <h4 class="post-card__title">Design Principles for Beginners</h4>
+                            <p class="post-card__desc">Discover the fundamental principles of design that will help
+                                you
+                                create
+                                visually appealing and effective layouts.</p>
+                        </div>
+                    </div>
+                    <div class="post-card">
+                        <img src="https://images3.alphacoders.com/585/thumb-1920-585234.jpg" alt="Post 3"
+                            class="post-card__image">
+                        <div class="post-card__body">
+                            <h4 class="post-card__title">Boost Your Productivity</h4>
+                            <p class="post-card__desc">Explore proven strategies and tools to enhance your
+                                productivity and
+                                achieve your goals faster.</p>
+                        </div>
+                    </div>
+                    <!-- Pagination -->
+                    <div class="pagination">
+                        <button class="pagination__btn" disabled>&laquo;</button>
+                        <button class="pagination__btn pagination__btn--active">1</button>
+                        <button class="pagination__btn">2</button>
+                        <button class="pagination__btn">3</button>
+                        <button class="pagination__btn">&raquo;</button>
+                    </div>
+                </section>
+
+                <aside class="main-grid__ads">
+                    <div class="ads-placeholder">Ad Placeholder</div>
+                </aside>
+            </div>
+            <!-- Thời khóa biểu sự kiện -->
+            <div class="event-schedule">
+                <h4 class="event-schedule__title">お知らせ</h4>
+                <table class="event-schedule__table">
+                    <tbody>
+                        <tr class="event-schedule__row">
+                            <td class="event-schedule__date">10/09/2025</td>
+                            <td class="event-schedule__status">
+                                <span class="event-schedule__chip event-schedule__chip--upcoming">予定</span>
+                            </td>
+                            <td class="event-schedule__desc">オンラインセミナー：AI活用法</td>
+                        </tr>
+                        <tr class="event-schedule__row">
+                            <td class="event-schedule__date">12/09/2025</td>
+                            <td class="event-schedule__status">
+                                <span class="event-schedule__chip event-schedule__chip--open">受付中</span>
+                            </td>
+                            <td class="event-schedule__desc">デザインワークショップ</td>
+                        </tr>
+                        <tr class="event-schedule__row">
+                            <td class="event-schedule__date">15/09/2025</td>
+                            <td class="event-schedule__status">
+                                <span class="event-schedule__chip event-schedule__chip--closed">終了</span>
+                            </td>
+                            <td class="event-schedule__desc">ビジネス交流会</td>
+                        </tr>
+                        <tr class="event-schedule__row">
+                            <td class="event-schedule__date">18/09/2025</td>
+                            <td class="event-schedule__status">
+                                <span class="event-schedule__chip event-schedule__chip--upcoming">予定</span>
+                            </td>
+                            <td class="event-schedule__desc">新サービス発表</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- Accordion for Common Questions -->
+            <div class="faq-accordion">
+                <h2 class="faq-accordion__title">よくあるご質問</h2>
+                <div class="faq-accordion__item">
+                    <button class="faq-accordion__question" type="button">Q. サービスの利用は無料ですか？</button>
+                    <div class="faq-accordion__answer">
+                        <p>はい、基本的なサービスは無料でご利用いただけます。一部のプレミアム機能は有料となります。</p>
+                    </div>
+                </div>
+                <div class="faq-accordion__item">
+                    <button class="faq-accordion__question" type="button">Q. 登録方法を教えてください。</button>
+                    <div class="faq-accordion__answer">
+                        <p>トップページ右上の「Register」ボタンから必要事項をご入力の上、ご登録ください。</p>
+                    </div>
+                </div>
+                <div class="faq-accordion__item">
+                    <button class="faq-accordion__question" type="button">Q. パスワードを忘れた場合は？</button>
+                    <div class="faq-accordion__answer">
+                        <p>ログイン画面の「パスワードをお忘れですか？」リンクより再設定が可能です。</p>
+                    </div>
+                </div>
+                <div class="faq-accordion__item">
+                    <button class="faq-accordion__question" type="button">Q. お問い合わせの返信はいつ届きますか？</button>
+                    <div class="faq-accordion__answer">
+                        <p>通常2営業日以内に担当者よりご連絡いたします。</p>
+                    </div>
+                </div>
+            </div>
+            <!-- About & Contact in 1 grid -->
+            <div class="about-contact-grid">
+                <section class="about-section">
+                    <h1 class="about-section__title">私たちについて</h1>
+                    <p class="about-section__lead">
+                        Project Templateは、最新のテクノロジーとデザインを活用し、ユーザーに価値ある情報とサービスを提供することを目指しています。
+                    </p>
+                    <div class="about-section__content">
+                        <h2 class="about-section__subtitle">ミッション</h2>
+                        <p>
+                            私たちのミッションは、誰もが簡単に使える、分かりやすく便利なウェブサービスを開発し、社会に貢献することです。
+                        </p>
+                        <h2 class="about-section__subtitle">主なサービス</h2>
+                        <ul class="about-section__list">
+                            <li>最新ニュース・記事の配信</li>
+                            <li>イベント・セミナー情報の提供</li>
+                            <li>ユーザー同士のコミュニティサポート</li>
+                            <li>ビジネス向けソリューションの提案</li>
+                        </ul>
+                        <h2 class="about-section__subtitle">チームについて</h2>
+                        <p>
+                            私たちのチームは、経験豊富なエンジニア、デザイナー、マーケターで構成されており、常に新しい価値の創造に挑戦しています。
+                        </p>
+                        <h2 class="about-section__subtitle">お問い合わせ</h2>
+                        <p>
+                            ご質問やご意見がございましたら、<a href="#contact" class="about-section__link">お問い合わせフォーム</a>よりお気軽にご連絡ください。
+                        </p>
+                    </div>
+                </section>
+                <div class="contact-form" id="contact">
+                    <h4 class="contact-form__title">お問い合わせ</h4>
+                    <div class="contact-form__messages">
+                        <p>ご質問やご要望がございましたら、下記フォームよりお気軽にご連絡ください。</p>
+                        <p>担当者より折り返しご連絡いたします。</p>
+                    </div>
+                    <form class="contact-form__body">
+                        <div class="contact-form__group">
+                            <label for="name" class="contact-form__label">お名前</label>
+                            <input type="text" id="name" name="name" class="contact-form__input" required>
+                        </div>
+                        <div class="contact-form__group">
+                            <label for="email" class="contact-form__label">メールアドレス</label>
+                            <input type="email" id="email" name="email" class="contact-form__input" required>
+                        </div>
+                        <div class="contact-form__group">
+                            <label for="message" class="contact-form__label">メッセージ</label>
+                            <textarea id="message" name="message" rows="4" class="contact-form__input"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="contact-form__submit">送信</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- ...existing code... -->
+    <footer class="page-footer">
+        <div class="wrapper">
+            <div class="page-footer__content">
+                &copy; 2025 Project Template. All rights reserved.
+            </div>
+        </div>
+    </footer>
+    <!-- ...existing code... -->
+
+    <script>
+        // Hamburger menu toggle
+        document.addEventListener('DOMContentLoaded', function () {
+            var hamburger = document.getElementById('hamburger');
+            var menu = document.getElementById('mainMenu');
+            hamburger.addEventListener('click', function () {
+                menu.classList.toggle('page-header__menu--open');
+            });
+
+
+            var faqItems = document.querySelectorAll('.faq-accordion__item');
+            faqItems.forEach(function (item) {
+                var btn = item.querySelector('.faq-accordion__question');
+                btn.addEventListener('click', function () {
+                    // Đóng tất cả, chỉ mở 1
+                    faqItems.forEach(function (el) {
+                        if (el !== item) el.classList.remove('faq-accordion__item--open');
+                    });
+                    item.classList.toggle('faq-accordion__item--open');
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
