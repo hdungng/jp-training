@@ -144,6 +144,100 @@
             letter-spacing: 1px;
         }
 
+        .kanji-modal {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.45);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            z-index: 1000;
+        }
+
+        .kanji-modal--visible {
+            display: flex;
+        }
+
+        .kanji-modal__dialog {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 20px 45px rgba(0, 0, 0, 0.18);
+            max-width: 420px;
+            width: 100%;
+            padding: 28px 26px;
+            position: relative;
+            font-family: 'Meiryo', 'MS PGothic', Arial, sans-serif;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        .kanji-modal__close {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            background: transparent;
+            border: none;
+            font-size: 1.4rem;
+            cursor: pointer;
+            color: #888;
+            transition: color 0.2s;
+        }
+
+        .kanji-modal__close:hover,
+        .kanji-modal__close:focus {
+            color: #20C6C6;
+        }
+
+        .kanji-modal__title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 12px;
+            color: #222;
+        }
+
+        .kanji-modal__kanji {
+            font-size: 3rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .kanji-modal__hanviet {
+            text-align: center;
+            color: #20C6C6;
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin-bottom: 14px;
+        }
+
+        .kanji-modal__meta {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            font-size: 0.9rem;
+            color: #555;
+            margin-bottom: 16px;
+        }
+
+        .kanji-modal__section-title {
+            font-weight: 700;
+            color: #20C6C6;
+            margin-top: 16px;
+            margin-bottom: 8px;
+        }
+
+        .kanji-modal__words {
+            list-style: disc;
+            margin-left: 20px;
+            color: #333;
+        }
+
+        .kanji-modal__words li {
+            margin-bottom: 6px;
+        }
+
         @media (max-width: 800px) {
             .kanji-lookup-grid {
                 grid-template-columns: 1fr;
@@ -240,6 +334,27 @@
         </div>
     </div>
 
+    <div class="kanji-modal" id="kanjiModal" aria-hidden="true">
+        <div class="kanji-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="kanjiModalTitle">
+            <button class="kanji-modal__close" id="kanjiModalClose" aria-label="Close">&times;</button>
+            <div class="kanji-modal__title" id="kanjiModalTitle">漢字情報</div>
+            <div class="kanji-modal__kanji" id="kanjiModalChar"></div>
+            <div class="kanji-modal__hanviet" id="kanjiModalHanviet"></div>
+            <div class="kanji-modal__meta">
+                <span id="kanjiModalLevel"></span>
+                <span id="kanjiModalPronunciation"></span>
+            </div>
+            <div>
+                <div class="kanji-modal__section-title">意味 / Meaning</div>
+                <p id="kanjiModalMeaning"></p>
+            </div>
+            <div>
+                <div class="kanji-modal__section-title">言葉 / Words</div>
+                <ul class="kanji-modal__words" id="kanjiModalWords"></ul>
+            </div>
+        </div>
+    </div>
+
     <script>
         // Load Kanji data from JSON file
         let kanjiData = [];
@@ -277,7 +392,7 @@
                     <div style="font-size:0.4em;color:#888;margin-top:4px;">${item.level}</div>
                 `;
                     card.addEventListener('click', () => {
-                        alert(`Kanji: ${item.char}\nVietnamese Character: ${item.hanviet}\nLevel: ${item.level}\nMeaning: ${item.meaning}\nReading: ${item.pronunciation}`);
+                        showKanjiModal(item);
                     });
                     kanjiList.appendChild(card);
                 });
@@ -286,6 +401,59 @@
             // Update pagination info
             updatePaginationInfo(filteredData);
         }
+
+        const modal = document.getElementById('kanjiModal');
+        const modalCloseBtn = document.getElementById('kanjiModalClose');
+        const modalChar = document.getElementById('kanjiModalChar');
+        const modalHanviet = document.getElementById('kanjiModalHanviet');
+        const modalLevel = document.getElementById('kanjiModalLevel');
+        const modalPronunciation = document.getElementById('kanjiModalPronunciation');
+        const modalMeaning = document.getElementById('kanjiModalMeaning');
+        const modalWords = document.getElementById('kanjiModalWords');
+
+        function showKanjiModal(item) {
+            modalChar.textContent = item.char || '';
+            modalHanviet.textContent = item.hanviet || '';
+            modalLevel.textContent = item.level ? `Level: ${item.level}` : '';
+            modalPronunciation.textContent = item.pronunciation ? `Reading: ${item.pronunciation}` : '';
+            modalMeaning.textContent = item.meaning || '';
+
+            modalWords.innerHTML = '';
+            if (Array.isArray(item.words) && item.words.length > 0) {
+                item.words.forEach(word => {
+                    const li = document.createElement('li');
+                    li.textContent = word;
+                    modalWords.appendChild(li);
+                });
+            } else {
+                const li = document.createElement('li');
+                li.textContent = 'Không có ví dụ nào.';
+                modalWords.appendChild(li);
+            }
+
+            modal.classList.add('kanji-modal--visible');
+            modal.setAttribute('aria-hidden', 'false');
+            modalCloseBtn.focus();
+        }
+
+        function hideKanjiModal() {
+            modal.classList.remove('kanji-modal--visible');
+            modal.setAttribute('aria-hidden', 'true');
+        }
+
+        modalCloseBtn.addEventListener('click', hideKanjiModal);
+
+        modal.addEventListener('click', (event) => {
+            if (event.target === modal) {
+                hideKanjiModal();
+            }
+        });
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape' && modal.classList.contains('kanji-modal--visible')) {
+                hideKanjiModal();
+            }
+        });
 
         // Filter Kanji data based on search and selected levels
         function filterKanjiData() {
