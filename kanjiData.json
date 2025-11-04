@@ -7620,273 +7620,469 @@
         "level": "N1",
         "meaning": "drunk",
         "hanviet": "TÚY",
-        "pronunciation": "スイ、よ-う sui, yo-u"
+        "pronunciation": "スイ、よ-う sui, yo-u",
+        "words": [
+          "酔客（すいきゃく）– khách say rượu",
+          "酔漢（すいかん）– kẻ say rượu",
+          "酔心（すいしん）– say mê"
+        ]
     },
     {
         "char": "遂",
         "level": "N1",
         "meaning": "consummate",
         "hanviet": "TOẠI",
-        "pronunciation": "スイ、と-げる sui, to-geru"
+        "pronunciation": "スイ、と-げる sui, to-geru",
+        "words": [
+          "遂行（すいこう）– thi hành",
+          "未遂（みすい）– chưa đạt",
+          "完遂（かんすい）– hoàn thành"
+        ]
     },
     {
         "char": "睡",
         "level": "N1",
         "meaning": "drowsy",
         "hanviet": "THỤY",
-        "pronunciation": "スイ sui"
+        "pronunciation": "スイ sui",
+        "words": [
+          "睡眠（すいみん）– giấc ngủ",
+          "熟睡（じゅくすい）– ngủ say",
+          "睡魔（すいま）– cơn buồn ngủ"
+        ]
     },
     {
         "char": "穂",
         "level": "N1",
         "meaning": "ear",
         "hanviet": "TUỆ",
-        "pronunciation": "スイ、ほ sui, ho"
+        "pronunciation": "スイ、ほ sui, ho",
+        "words": [
+          "稲穂（いなほ）– bông lúa",
+          "穂先（ほさき）– đầu bông",
+          "穂状（すいじょう）– dạng bông"
+        ]
     },
     {
         "char": "随",
         "level": "N1",
         "meaning": "follow",
         "hanviet": "TÙY",
-        "pronunciation": "ズイ zui"
+        "pronunciation": "ズイ zui",
+        "words": [
+          "随時（ずいじ）– bất cứ lúc nào",
+          "随所（ずいしょ）– khắp nơi",
+          "随筆（ずいひつ）– tùy bút"
+        ]
     },
     {
         "char": "髄",
         "level": "N1",
         "meaning": "marrow",
         "hanviet": "TỦY",
-        "pronunciation": "ズイ zui"
+        "pronunciation": "ズイ zui",
+        "words": [
+          "骨髄（こつずい）– tủy xương",
+          "延髄（えんずい）– hành tủy",
+          "脊髄（せきずい）– tủy sống"
+        ]
     },
     {
         "char": "枢",
         "level": "N1",
         "meaning": "hinge",
         "hanviet": "XU",
-        "pronunciation": "スウ sū"
+        "pronunciation": "スウ sū",
+        "words": [
+          "中枢（ちゅうすう）– trung khu",
+          "枢要（すうよう）– trọng yếu",
+          "枢軸（すうじく）– trục chính"
+        ]
     },
     {
         "char": "崇",
         "level": "N1",
         "meaning": "adore",
         "hanviet": "SÙNG",
-        "pronunciation": "スウ sū"
+        "pronunciation": "スウ sū",
+        "words": [
+          "崇拝（すうはい）– sùng bái",
+          "崇高（すうこう）– cao cả",
+          "崇敬（すうけい）– tôn kính"
+        ]
     },
     {
         "char": "数",
         "level": "N3",
         "meaning": "number",
         "hanviet": "SỔ, SỐ, SÁC, XÚC",
-        "pronunciation": "スウ、（ス）、かず、かぞ-える sū, (su), kazu, kazo-eru"
+        "pronunciation": "スウ、（ス）、かず、かぞ-える sū, (su), kazu, kazo-eru",
+        "words": [
+          "数字（すうじ）– chữ số",
+          "数学（すうがく）– toán học",
+          "人数（にんずう）– số người",
+          "数量（すうりょう）– số lượng"
+        ]
     },
     {
         "char": "据",
         "level": "N1",
         "meaning": "set",
         "hanviet": "CƯ, CỨ",
-        "pronunciation": "す-える、す-わる su-eru, su-waru"
+        "pronunciation": "す-える、す-わる su-eru, su-waru",
+        "words": [
+          "据置（すえおき）– để nguyên trạng",
+          "据付（すえつけ）– lắp đặt",
+          "据物（すえもの）– vật trưng bày"
+        ]
     },
     {
         "char": "杉",
         "level": "N1",
         "meaning": "cedar",
         "hanviet": "SAM",
-        "pronunciation": "すぎ sugi"
+        "pronunciation": "すぎ sugi",
+        "words": [
+          "杉並（すぎなみ）– Suginami",
+          "杉林（すぎばやし）– rừng tuyết tùng",
+          "杉板（すぎいた）– ván gỗ tuyết tùng"
+        ]
     },
     {
         "char": "裾",
         "level": "N1",
         "meaning": "cuff",
         "hanviet": "CƯ, CỨ",
-        "pronunciation": "すそ suso"
+        "pronunciation": "すそ suso",
+        "words": [
+          "裾野（すその）– chân núi",
+          "裾模様（すそもよう）– hoa văn gấu áo",
+          "裾上げ（すそあげ）– viền gấu áo"
+        ]
     },
     {
         "char": "寸",
         "level": "N1",
         "meaning": "measurement",
         "hanviet": "THỐN",
-        "pronunciation": "スン sun"
+        "pronunciation": "スン sun",
+        "words": [
+          "寸法（すんぽう）– kích thước",
+          "寸前（すんぜん）– ngay trước",
+          "寸劇（すんげき）– kịch ngắn"
+        ]
     },
     {
         "char": "瀬",
         "level": "N1",
         "meaning": "rapids",
         "hanviet": "LẠI",
-        "pronunciation": "せ se"
+        "pronunciation": "せ se",
+        "words": [
+          "瀬戸（せと）– eo biển Seto",
+          "急瀬（きゅうせ）– ghềnh nước xiết",
+          "瀬音（せおと）– tiếng suối"
+        ]
     },
     {
         "char": "是",
         "level": "N1",
         "meaning": "just so",
         "hanviet": "THỊ",
-        "pronunciation": "ゼ ze"
+        "pronunciation": "ゼ ze",
+        "words": [
+          "是非（ぜひ）– nhất định",
+          "是認（ぜにん）– thừa nhận",
+          "国是（こくぜ）– quốc sách"
+        ]
     },
     {
         "char": "井",
         "level": "N1",
         "meaning": "well",
         "hanviet": "TỈNH",
-        "pronunciation": "セイ、（ショウ）、い sei, (shō), i"
+        "pronunciation": "セイ、（ショウ）、い sei, (shō), i",
+        "words": [
+          "井戸（いど）– giếng nước",
+          "天井（てんじょう）– trần nhà",
+          "井桁（いげた）– khung giếng"
+        ]
     },
     {
         "char": "世",
         "level": "N4",
         "meaning": "world",
         "hanviet": "THẾ",
-        "pronunciation": "セイ、セ、よ sei, se, yo"
+        "pronunciation": "セイ、セ、よ sei, se, yo",
+        "words": [
+          "世界（せかい）– thế giới",
+          "世間（せけん）– thế gian",
+          "世話（せわ）– chăm sóc"
+        ]
     },
     {
         "char": "正",
         "level": "N4",
         "meaning": "correct",
         "hanviet": "CHÁNH, CHÍNH",
-        "pronunciation": "セイ、ショウ、ただ-しい、ただ-す、まさ sei, shō, tada-shii, tada-su, masa"
+        "pronunciation": "セイ、ショウ、ただ-しい、ただ-す、まさ sei, shō, tada-shii, tada-su, masa",
+        "words": [
+          "正確（せいかく）– chính xác",
+          "正義（せいぎ）– chính nghĩa",
+          "正式（せいしき）– chính thức"
+        ]
     },
     {
         "char": "生",
         "level": "N5",
         "meaning": "life",
         "hanviet": "SANH, SINH",
-        "pronunciation": "セイ、ショウ、い-きる、い-かす、い-ける、う-まれる、う-む、お-う、は-える、は-やす、き、なま sei, shō, i-kiru, i-kasu, i-keru, u-mareru, u-mu, o-u, ha-eru, ha-yasu, ki, nama"
+        "pronunciation": "セイ、ショウ、い-きる、い-かす、い-ける、う-まれる、う-む、お-う、は-える、は-やす、き、なま sei, shō, i-kiru, i-kasu, i-keru, u-mareru, u-mu, o-u, ha-eru, ha-yasu, ki, nama",
+        "words": [
+          "生活（せいかつ）– cuộc sống",
+          "生産（せいさん）– sản xuất",
+          "生徒（せいと）– học sinh"
+        ]
     },
     {
         "char": "成",
         "level": "N3",
         "meaning": "become",
         "hanviet": "THÀNH",
-        "pronunciation": "セイ、（ジョウ）、な-る、な-す sei, (jō), na-ru, na-su"
+        "pronunciation": "セイ、（ジョウ）、な-る、な-す sei, (jō), na-ru, na-su",
+        "words": [
+          "成功（せいこう）– thành công",
+          "成長（せいちょう）– trưởng thành",
+          "成立（せいりつ）– thành lập"
+        ]
     },
     {
         "char": "西",
         "level": "N5",
         "meaning": "west",
         "hanviet": "TÂY, TÊ",
-        "pronunciation": "セイ、サイ、にし sei, sai, nishi"
+        "pronunciation": "セイ、サイ、にし sei, sai, nishi",
+        "words": [
+          "西洋（せいよう）– phương Tây",
+          "関西（かんさい）– vùng Kansai",
+          "西暦（せいれき）– dương lịch"
+        ]
     },
     {
         "char": "声",
         "level": "N3",
         "meaning": "voice",
         "hanviet": "THANH",
-        "pronunciation": "セイ、（ショウ）、こえ、（こわ） sei, (shō), koe, (kowa)"
+        "pronunciation": "セイ、（ショウ）、こえ、（こわ） sei, (shō), koe, (kowa)",
+        "words": [
+          "声明（せいめい）– tuyên bố",
+          "声援（せいえん）– cổ vũ",
+          "音声（おんせい）– âm thanh"
+        ]
     },
     {
         "char": "制",
         "level": "N3",
         "meaning": "control",
         "hanviet": "CHẾ",
-        "pronunciation": "セイ sei"
+        "pronunciation": "セイ sei",
+        "words": [
+          "制度（せいど）– chế độ",
+          "制限（せいげん）– hạn chế",
+          "規制（きせい）– quy chế"
+        ]
     },
     {
         "char": "姓",
         "level": "N2",
         "meaning": "surname",
         "hanviet": "TÍNH",
-        "pronunciation": "セイ、ショウ sei, shō"
+        "pronunciation": "セイ、ショウ sei, shō",
+        "words": [
+          "姓名（せいめい）– họ tên",
+          "本姓（ほんせい）– họ gốc",
+          "改姓（かいせい）– đổi họ"
+        ]
     },
     {
         "char": "征",
         "level": "N1",
         "meaning": "subjugate",
         "hanviet": "CHINH",
-        "pronunciation": "セイ sei"
+        "pronunciation": "セイ sei",
+        "words": [
+          "遠征（えんせい）– viễn chinh",
+          "征服（せいふく）– chinh phục",
+          "征伐（せいばつ）– chinh phạt"
+        ]
     },
     {
         "char": "性",
         "level": "N3",
         "meaning": "gender",
         "hanviet": "TÍNH",
-        "pronunciation": "セイ、ショウ sei, shō"
+        "pronunciation": "セイ、ショウ sei, shō",
+        "words": [
+          "性格（せいかく）– tính cách",
+          "性別（せいべつ）– giới tính",
+          "性質（せいしつ）– tính chất"
+        ]
     },
     {
         "char": "青",
         "level": "N4",
         "meaning": "blue",
         "hanviet": "THANH",
-        "pronunciation": "セイ、（ショウ）、あお、あお-い sei, (shō), ao, ao-i"
+        "pronunciation": "セイ、（ショウ）、あお、あお-い sei, (shō), ao, ao-i",
+        "words": [
+          "青空（あおぞら）– bầu trời xanh",
+          "青年（せいねん）– thanh niên",
+          "青春（せいしゅん）– tuổi trẻ"
+        ]
     },
     {
         "char": "斉",
         "level": "N1",
         "meaning": "adjusted",
         "hanviet": "TỀ",
-        "pronunciation": "セイ sei"
+        "pronunciation": "セイ sei",
+        "words": [
+          "一斉（いっせい）– đồng loạt",
+          "斉唱（せいしょう）– đồng ca",
+          "斉一（せいいつ）– đồng nhất"
+        ]
     },
     {
         "char": "政",
         "level": "N3",
         "meaning": "politics",
         "hanviet": "CHÁNH, CHÍNH",
-        "pronunciation": "セイ、（ショウ）、まつりごと sei, (shō), matsurigoto"
+        "pronunciation": "セイ、（ショウ）、まつりごと sei, (shō), matsurigoto",
+        "words": [
+          "政府（せいふ）– chính phủ",
+          "政治（せいじ）– chính trị",
+          "行政（ぎょうせい）– hành chính"
+        ]
     },
     {
         "char": "星",
         "level": "N2",
         "meaning": "star",
         "hanviet": "TINH",
-        "pronunciation": "セイ、（ショウ）、ほし sei, (shō), hoshi"
+        "pronunciation": "セイ、（ショウ）、ほし sei, (shō), hoshi",
+        "words": [
+          "星空（ほしぞら）– bầu trời sao",
+          "流星（りゅうせい）– sao băng",
+          "星座（せいざ）– chòm sao"
+        ]
     },
     {
         "char": "牲",
         "level": "N1",
         "meaning": "animal sacrifice",
         "hanviet": "SINH",
-        "pronunciation": "セイ sei"
+        "pronunciation": "セイ sei",
+        "words": [
+          "犠牲（ぎせい）– hi sinh",
+          "牲畜（せいちく）– gia súc",
+          "犠牲者（ぎせいしゃ）– người hi sinh"
+        ]
     },
     {
         "char": "省",
         "level": "N2",
         "meaning": "government ministry",
         "hanviet": "TỈNH",
-        "pronunciation": "セイ、ショウ、かえり-みる、はぶ-く sei, shō, kaeri-miru, habu-ku"
+        "pronunciation": "セイ、ショウ、かえり-みる、はぶ-く sei, shō, kaeri-miru, habu-ku",
+        "words": [
+          "省庁（しょうちょう）– bộ ngành",
+          "省略（しょうりゃく）– lược bỏ",
+          "反省（はんせい）– tự kiểm điểm"
+        ]
     },
     {
         "char": "凄",
         "level": "N1",
         "meaning": "uncanny",
         "hanviet": "THÊ",
-        "pronunciation": "セイ sei"
+        "pronunciation": "セイ sei",
+        "words": [
+          "凄惨（せいさん）– thảm khốc",
+          "凄絶（せいぜつ）– bi thảm",
+          "凄烈（せいれつ）– dữ dội"
+        ]
     },
     {
         "char": "逝",
         "level": "N1",
         "meaning": "departed",
         "hanviet": "THỆ",
-        "pronunciation": "セイ、ゆ-く、い-く sei, yu-ku, i-ku"
+        "pronunciation": "セイ、ゆ-く、い-く sei, yu-ku, i-ku",
+        "words": [
+          "逝去（せいきょ）– qua đời",
+          "逝世（せいせい）– tạ thế",
+          "急逝（きゅうせい）– đột ngột qua đời"
+        ]
     },
     {
         "char": "清",
         "level": "N2",
         "meaning": "pure",
         "hanviet": "THANH",
-        "pronunciation": "セイ、（ショウ）、きよ-い、きよ-まる、きよ-める sei, (shō), kiyo-i, kiyo-maru, kiyo-meru"
+        "pronunciation": "セイ、（ショウ）、きよ-い、きよ-まる、きよ-める sei, (shō), kiyo-i, kiyo-maru, kiyo-meru",
+        "words": [
+          "清潔（せいけつ）– sạch sẽ",
+          "清掃（せいそう）– vệ sinh",
+          "清純（せいじゅん）– thuần khiết"
+        ]
     },
     {
         "char": "盛",
         "level": "N1",
         "meaning": "prosper",
         "hanviet": "THỊNH, THÌNH",
-        "pronunciation": "セイ、（ジョウ）、も-る、さか-る、さか-ん sei, (jō), mo-ru, saka-ru, saka-n"
+        "pronunciation": "セイ、（ジョウ）、も-る、さか-る、さか-ん sei, (jō), mo-ru, saka-ru, saka-n",
+        "words": [
+          "盛況（せいきょう）– thịnh vượng",
+          "繁盛（はんじょう）– phát đạt",
+          "盛大（せいだい）– hoành tráng"
+        ]
     },
     {
         "char": "婿",
         "level": "N1",
         "meaning": "bridegroom",
         "hanviet": "TẾ",
-        "pronunciation": "セイ、むこ sei, muko"
+        "pronunciation": "セイ、むこ sei, muko",
+        "words": [
+          "花婿（はなむこ）– chú rể",
+          "婿養子（むこようし）– con rể nuôi",
+          "婿殿（むこどの）– chàng rể"
+        ]
     },
     {
         "char": "晴",
         "level": "N3",
         "meaning": "clear up",
         "hanviet": "TÌNH",
-        "pronunciation": "セイ、は-れる、は-らす sei, ha-reru, ha-rasu"
+        "pronunciation": "セイ、は-れる、は-らす sei, ha-reru, ha-rasu",
+        "words": [
+          "晴天（せいてん）– trời quang",
+          "晴雨（せいう）– nắng mưa",
+          "快晴（かいせい）– trời quang đãng"
+        ]
     },
     {
         "char": "勢",
         "level": "N2",
         "meaning": "power",
         "hanviet": "THẾ",
-        "pronunciation": "セイ、いきお-い sei, ikio-i"
+        "pronunciation": "セイ、いきお-い sei, ikio-i",
+        "words": [
+          "勢力（せいりょく）– thế lực",
+          "形勢（けいせい）– tình thế",
+          "優勢（ゆうせい）– ưu thế"
+        ]
     },
     {
         "char": "聖",
